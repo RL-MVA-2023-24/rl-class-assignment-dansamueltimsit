@@ -19,6 +19,7 @@ def seed_everything(seed: int = 42):
 
 
 if __name__ == "__main__":
+    print("here")
     seed_everything(seed=42)
     path_DQN = os.path.join(os.getcwd(), "src", "DQN_parameters_replace.pt")
     # Initialization of the agent. Replace DummyAgent with your custom agent implementation.
